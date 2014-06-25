@@ -8,12 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-@interface HPNItem : NSObject {
-    NSString *_itemName;
-    NSString *_serialNumber;
-    int _valueInDollars;
-    NSDate *_dateCreated;
-}
+@interface HPNItem : NSObject <NSCoding>
+
+@property (nonatomic, strong) NSString *itemName, *serialNumber;
+@property (nonatomic) int valueInDollars;
+@property (nonatomic, strong) NSDate *dateCreated;
+@property (nonatomic, copy) NSString *key;
+@property (nonatomic, strong) UIImage *thumbnail;
 
 // class method to make all your dreams come true
 + (instancetype)randomItem;
@@ -22,15 +23,7 @@
 - (instancetype)initWithItemName:(NSString *)name valueInDollars:(int)value serialNumber:(NSString *)sNumber;
 - (instancetype)initWithItemName:(NSString *)name;
 
-- (void)setItemName:(NSString *)str;
-- (NSString *)itemName;
-
-- (void)setSerialNumber:(NSString *)str;
-- (NSString *)serialNumber;
-
-- (void)setValueInDollars:(int)dollars;
-- (int)valueInDollars;
-
-- (NSDate *)dateCreated;
+// thumbnail enabler
+- (void)setThumbnailFromImage:(UIImage *)image;
 
 @end

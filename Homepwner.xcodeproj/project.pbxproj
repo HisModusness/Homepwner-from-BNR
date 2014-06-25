@@ -22,6 +22,15 @@
 		0C6F118E18DFBEF800E7DF37 /* HPNItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6F118D18DFBEF800E7DF37 /* HPNItemsViewController.m */; };
 		0C6F119118DFC7CC00E7DF37 /* HPNItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6F118F18DFC7CC00E7DF37 /* HPNItem.m */; };
 		0C6F119418DFC89A00E7DF37 /* HPNItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6F119318DFC89A00E7DF37 /* HPNItemStore.m */; };
+		0C6FEF44195A4D840028C392 /* HPNItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6FEF43195A4D840028C392 /* HPNItemCell.m */; };
+		0C6FEF46195A4DBE0028C392 /* HPNItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C6FEF45195A4DBE0028C392 /* HPNItemCell.xib */; };
+		0C6FEF49195A60640028C392 /* HPNImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6FEF48195A60640028C392 /* HPNImageViewController.m */; };
+		0CC6B1C3193A9DB5009E4D10 /* HPNImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC6B1C2193A9DB5009E4D10 /* HPNImageStore.m */; };
+		0CDB9B0C193952FB009037C6 /* FooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CDB9B0B193952FB009037C6 /* FooterView.xib */; };
+		0CDB9B1019397B7D009037C6 /* HPNDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDB9B0E19397B7D009037C6 /* HPNDetailViewController.m */; };
+		0CDB9B1119397B7D009037C6 /* HPNDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CDB9B0F19397B7D009037C6 /* HPNDetailViewController.xib */; };
+		0CDB9B151939930C009037C6 /* HPNDateChooserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDB9B131939930C009037C6 /* HPNDateChooserViewController.m */; };
+		0CDB9B161939930C009037C6 /* HPNDateChooserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CDB9B141939930C009037C6 /* HPNDateChooserViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +66,20 @@
 		0C6F119018DFC7CC00E7DF37 /* HPNItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPNItem.h; sourceTree = "<group>"; };
 		0C6F119218DFC89A00E7DF37 /* HPNItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPNItemStore.h; sourceTree = "<group>"; };
 		0C6F119318DFC89A00E7DF37 /* HPNItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPNItemStore.m; sourceTree = "<group>"; };
+		0C6FEF42195A4D840028C392 /* HPNItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPNItemCell.h; sourceTree = "<group>"; };
+		0C6FEF43195A4D840028C392 /* HPNItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPNItemCell.m; sourceTree = "<group>"; };
+		0C6FEF45195A4DBE0028C392 /* HPNItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HPNItemCell.xib; sourceTree = "<group>"; };
+		0C6FEF47195A60640028C392 /* HPNImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPNImageViewController.h; sourceTree = "<group>"; };
+		0C6FEF48195A60640028C392 /* HPNImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPNImageViewController.m; sourceTree = "<group>"; };
+		0CC6B1C1193A9DB5009E4D10 /* HPNImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPNImageStore.h; sourceTree = "<group>"; };
+		0CC6B1C2193A9DB5009E4D10 /* HPNImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPNImageStore.m; sourceTree = "<group>"; };
+		0CDB9B0B193952FB009037C6 /* FooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FooterView.xib; sourceTree = "<group>"; };
+		0CDB9B0D19397B7D009037C6 /* HPNDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPNDetailViewController.h; sourceTree = "<group>"; };
+		0CDB9B0E19397B7D009037C6 /* HPNDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPNDetailViewController.m; sourceTree = "<group>"; };
+		0CDB9B0F19397B7D009037C6 /* HPNDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HPNDetailViewController.xib; sourceTree = "<group>"; };
+		0CDB9B121939930C009037C6 /* HPNDateChooserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPNDateChooserViewController.h; sourceTree = "<group>"; };
+		0CDB9B131939930C009037C6 /* HPNDateChooserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPNDateChooserViewController.m; sourceTree = "<group>"; };
+		0CDB9B141939930C009037C6 /* HPNDateChooserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HPNDateChooserViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,16 +139,30 @@
 		0C6F116318DFBDE200E7DF37 /* Homepwner */ = {
 			isa = PBXGroup;
 			children = (
-				0C6F118F18DFC7CC00E7DF37 /* HPNItem.m */,
-				0C6F119018DFC7CC00E7DF37 /* HPNItem.h */,
+				0CDB9B0B193952FB009037C6 /* FooterView.xib */,
 				0C6F116C18DFBDE200E7DF37 /* HPNAppDelegate.h */,
 				0C6F116D18DFBDE200E7DF37 /* HPNAppDelegate.m */,
-				0C6F116F18DFBDE200E7DF37 /* Images.xcassets */,
-				0C6F116418DFBDE200E7DF37 /* Supporting Files */,
-				0C6F118C18DFBEF800E7DF37 /* HPNItemsViewController.h */,
-				0C6F118D18DFBEF800E7DF37 /* HPNItemsViewController.m */,
+				0CDB9B121939930C009037C6 /* HPNDateChooserViewController.h */,
+				0CDB9B131939930C009037C6 /* HPNDateChooserViewController.m */,
+				0CDB9B141939930C009037C6 /* HPNDateChooserViewController.xib */,
+				0CDB9B0D19397B7D009037C6 /* HPNDetailViewController.h */,
+				0CDB9B0E19397B7D009037C6 /* HPNDetailViewController.m */,
+				0CDB9B0F19397B7D009037C6 /* HPNDetailViewController.xib */,
+				0CC6B1C1193A9DB5009E4D10 /* HPNImageStore.h */,
+				0CC6B1C2193A9DB5009E4D10 /* HPNImageStore.m */,
+				0C6F119018DFC7CC00E7DF37 /* HPNItem.h */,
+				0C6F118F18DFC7CC00E7DF37 /* HPNItem.m */,
+				0C6FEF42195A4D840028C392 /* HPNItemCell.h */,
+				0C6FEF43195A4D840028C392 /* HPNItemCell.m */,
+				0C6FEF45195A4DBE0028C392 /* HPNItemCell.xib */,
 				0C6F119218DFC89A00E7DF37 /* HPNItemStore.h */,
 				0C6F119318DFC89A00E7DF37 /* HPNItemStore.m */,
+				0C6F118C18DFBEF800E7DF37 /* HPNItemsViewController.h */,
+				0C6F118D18DFBEF800E7DF37 /* HPNItemsViewController.m */,
+				0C6F116F18DFBDE200E7DF37 /* Images.xcassets */,
+				0C6F116418DFBDE200E7DF37 /* Supporting Files */,
+				0C6FEF47195A60640028C392 /* HPNImageViewController.h */,
+				0C6FEF48195A60640028C392 /* HPNImageViewController.m */,
 			);
 			path = Homepwner;
 			sourceTree = "<group>";
@@ -235,7 +272,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CDB9B0C193952FB009037C6 /* FooterView.xib in Resources */,
+				0C6FEF46195A4DBE0028C392 /* HPNItemCell.xib in Resources */,
+				0CDB9B1119397B7D009037C6 /* HPNDetailViewController.xib in Resources */,
 				0C6F116818DFBDE200E7DF37 /* InfoPlist.strings in Resources */,
+				0CDB9B161939930C009037C6 /* HPNDateChooserViewController.xib in Resources */,
 				0C6F117018DFBDE200E7DF37 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,10 +296,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CC6B1C3193A9DB5009E4D10 /* HPNImageStore.m in Sources */,
 				0C6F119118DFC7CC00E7DF37 /* HPNItem.m in Sources */,
 				0C6F116A18DFBDE200E7DF37 /* main.m in Sources */,
 				0C6F118E18DFBEF800E7DF37 /* HPNItemsViewController.m in Sources */,
+				0CDB9B151939930C009037C6 /* HPNDateChooserViewController.m in Sources */,
+				0C6FEF49195A60640028C392 /* HPNImageViewController.m in Sources */,
+				0C6FEF44195A4D840028C392 /* HPNItemCell.m in Sources */,
 				0C6F119418DFC89A00E7DF37 /* HPNItemStore.m in Sources */,
+				0CDB9B1019397B7D009037C6 /* HPNDetailViewController.m in Sources */,
 				0C6F116E18DFBDE200E7DF37 /* HPNAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,7 +425,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Homepwner/Homepwner-Prefix.pch";
 				INFOPLIST_FILE = "Homepwner/Homepwner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,7 +440,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Homepwner/Homepwner-Prefix.pch";
 				INFOPLIST_FILE = "Homepwner/Homepwner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -456,6 +506,7 @@
 				0C6F118818DFBDE200E7DF37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C6F118918DFBDE200E7DF37 /* Build configuration list for PBXNativeTarget "HomepwnerTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +515,7 @@
 				0C6F118B18DFBDE200E7DF37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
