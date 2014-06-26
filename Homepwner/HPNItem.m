@@ -90,8 +90,8 @@
     UIGraphicsBeginImageContextWithOptions(newRect.size, NO, 0.0);
     
     // Create a path that is a rounded rectangle
-    UIBezierPath *path = [UIBezierPath bezierPathWithRoundedRect:newRect cornerRadius:5.0];
-    // UIBezierPath *path = [UIBezierPath ovalInRect:newRect];
+    // UIBezierPath *path = [UIBezierPath bezierPathWithRoundedRect:newRect cornerRadius:5.0];
+    UIBezierPath *path = [UIBezierPath bezierPathWithOvalInRect:newRect];
     
     // Make all subsequent drawing clip to this mask
     [path addClip];

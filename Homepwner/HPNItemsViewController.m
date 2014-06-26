@@ -27,7 +27,7 @@
     self = [super initWithStyle:UITableViewStylePlain];
     if (self) {
         UINavigationItem *item = self.navigationItem;
-        item.title = @"Homepwner";
+        item.title = @"Items";
         
         UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addNewItem:)];
         item.rightBarButtonItem = addButton;
